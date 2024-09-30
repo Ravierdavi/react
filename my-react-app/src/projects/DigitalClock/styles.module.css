@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: no-repeat center/cover
+    url("../../assets/digital_clock_wallpaper.jpg");
+}
+
+.clockContainer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
