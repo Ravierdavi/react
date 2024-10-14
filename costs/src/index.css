@@ -1,6 +1,9 @@
 /* Normalize Css */
 :root {
   --font: "Open Sans", sans-serif;
+  --background-color: #222;
+  --primary-color: #f3f3f3;
+  --secondary-color: #ffbb33;
 }
 
 * {
@@ -12,4 +15,8 @@
 body {
   min-height: 100vh;
   font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
 }
