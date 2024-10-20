@@ -1,0 +1,14 @@
+.newproject_container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2em;
+}
+
+.newproject_container h1 {
+  margin-bottom: 0.5em;
+  color: var(--text-color1);
+}
+
+.newproject_container p {
+    color: var(--text-color2);
+}
