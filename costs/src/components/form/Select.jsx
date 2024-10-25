@@ -5,7 +5,12 @@ function Select({ name, text, options, handleOnChange, value }) {
         <div className={styles.select_container}>
             <label htmlFor={name}>{text}:</label>
             <select name={name} id={name}>
-                <option selected>Selecione uma opção</option>
+                <option selected disabled>Selecione uma opção</option>
+                {
+                    options.map((option) => (
+                        <option value={option.id} key={option.id}>{option.name}</option>
+                    ))
+                }
             </select>
         </div>
     )
