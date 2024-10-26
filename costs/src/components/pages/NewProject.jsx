@@ -19,10 +19,9 @@ function NewProject() {
                 body: JSON.stringify(project)
             });
             const data = await response.json();
-            console.log(data, "" + JSON.stringify(project))
             
             // redirect
-            navigate("/projects", { state: "Processo criado com sucesso!" })
+            navigate("/projects", { state: "Projeto criado com sucesso!" })
         } catch (error) {
             console.error(error)
         }
