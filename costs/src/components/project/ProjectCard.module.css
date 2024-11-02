@@ -1,0 +1,84 @@
+.ProjectCard_container {
+  min-width: 240px;
+  width: 25%;
+  max-width: 300px;
+  padding: 1em;
+  border: 1px solid var(--background-color);
+  border-radius: 5px;
+  margin: 0.5em;
+}
+
+.ProjectCard_container h4 {
+  margin-bottom: 1.3em;
+  padding: 0.4em;
+  background-color: var(--background-color);
+  font-size: 1.3em;
+  color: var(--secondary-color);
+}
+
+.informations_container div {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-bottom: 1.2em;
+}
+
+.informations_container h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--text-color2);
+}
+
+.informations_container p {
+  color: var(--text-color2);
+}
+
+.category_bullet {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--text-color2);
+  border-radius: 50%;
+}
+
+.infra {
+  background-color: #fd97a8;
+}
+.desenvolvimento {
+  background-color: #7de0dd;
+}
+.design {
+  background-color: #77fa9e;
+}
+.planejamento {
+  background-color: #f7bd60;
+}
+
+.controls {
+  display: flex;
+}
+
+.controls a,
+.controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+  padding: 0.6em 0.8em;
+  background-color: #fff;
+  border: 1px solid var(--background-color);
+  color: var(--background-color);
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.controls a:hover,
+.controls button:hover {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+.controls svg {
+  margin-right: 0.5em;
+  font-size: 1em;
+}
