@@ -15,14 +15,14 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
                 <div>
                     <span className={`${styles.category_bullet} ${styles[category.toLowerCase()]}`}></span>
                     <p>{category}</p>
-                </div> 
+                </div>
             </div>
             <div className={styles.controls}>
                 <Link to="/">
                     <BsPencil /> Editar
                 </Link>
-                <button>
-                    <BsFillTrashFill/> Excluir
+                <button onClick={() => handleRemove(id)}>
+                    <BsFillTrashFill /> Excluir
                 </button>
             </div>
         </div>
