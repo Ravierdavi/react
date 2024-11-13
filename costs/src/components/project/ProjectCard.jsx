@@ -18,7 +18,7 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
                 </div>
             </div>
             <div className={styles.controls}>
-                <Link to="/">
+                <Link to={`/projects/project/${id}`}>
                     <BsPencil /> Editar
                 </Link>
                 <button onClick={() => handleRemove(id)}>

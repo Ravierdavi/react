@@ -1,0 +1,40 @@
+.project_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 2em;
+}
+
+.project_container h1 {
+  padding: 0.4em;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+.project_container button {
+  height: 40px;
+  padding: 0 0.8em;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.project_container button:hover {
+  color: var(--secondary-color);
+}
+
+.project_info {
+  width: 100%;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--background-color);
+}
+
+.project_info p {
+  margin-bottom: 0.5em;
+}
+
+.project_info span {
+  font-weight: bold;
+}

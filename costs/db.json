@@ -2,11 +2,11 @@
   "projects": [
     {
       "id": "cda9",
-      "name": "Vendas",
-      "budget": "5000",
+      "name": "Cuent0",
+      "budget": "80000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": []

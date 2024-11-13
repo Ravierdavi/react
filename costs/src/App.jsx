@@ -6,16 +6,18 @@ import Contact from "./components/pages/Contact"
 
 import Layout from "./components/layout/Layout"
 import NewProject from "./components/pages/NewProject"
+import Project from "./components/pages/Project"
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Navigate to="/home"/>}/>
+          <Route index element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />}></Route>
 
           <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/projects/project/:id" element={<Project />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/newproject" element={<NewProject />}></Route>

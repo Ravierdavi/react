@@ -57,7 +57,7 @@ function Projects() {
             {projectMessage && <Message type="success" msg={projectMessage} />}
             {
                 projects.map((project) => (
-                    <ProjectCard id={project.id} name={project.name} budget={project.budget} category={project.category.name} handleRemove={removeProject} />
+                    <ProjectCard id={project.id} key={project.id} name={project.name} budget={project.budget} category={project.category.name} handleRemove={removeProject} />
                 ))
             }
             {!removeLoading && <Loading />}
